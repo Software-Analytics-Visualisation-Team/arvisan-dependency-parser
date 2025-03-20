@@ -1,0 +1,7 @@
+{
+    "parser_type": "subsystem_parser",
+    "dependencies_path": "C:/arvisan-dependency-parser/data/input/subsystem_dependencies/dependencies.txt",
+    "mapping_path": "C:/arvisan-dependency-parser/data/input/subsystem_dependencies/subsystem_mapping.csv",
+    "expected_dependencies_path": "C:/arvisan-dependency-parser/data/input/subsystem_dependencies/expected_dependencies.csv",
+    "output_dir": "C:/arvisan-dependency-parser/data/output/subsystem_dependencies/"
+}
