@@ -1,4 +1,5 @@
-# Dependency Parser
+# ARViSAN Dependency Parser
+The `dependency_parser` is a Python tool created to parse different types of dependencies and generate input for ARViSAN. Currently, the parser supports parsing component dependencies collected from a study with Thermo Fisher Scientific. The parser can be easily extended to further support new sources of dependencies.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -9,8 +10,13 @@
 - [Example configuration](#example-configuration)
 - [How to Run the Tool](#how-to-run-the-tool)
 
-## Introduction
-The `dependency_parser` is a Python tool created to parse different types of dependencies and generate input for ARViSAN. Currently, the parser supports parsing component dependencies collected from a study with Thermo Fisher Scientific. The parser can be easily extended to further support new sources of dependencies.
+## ARViSAN repositories
+ARViSAN is separated into two main and two additional repositories described below:
+ - **[ARViSAN frontend](https://github.com/Software-Analytics-Visualisation-Team/arvisan-frontend)**: Responsible for rendering the graph and showing the analyses to the end user.
+- **[ARVISAN backend](https://github.com/Software-Analytics-Visualisation-Team/arvisan-backend)**: Contains various endpoints for processing and executing queries to the graph database. 
+- **ARVISAN dependency parser (this repository)**: Extendable Python script to preprocess software dependencies and convert them in ARViSAN's input format. Can be used to create input for visualizing confromance between expected (allowed) dependencies and actual (implementation) dependencies.
+- **[ARVISAN input parser](https://github.com/Software-Analytics-Visualisation-Team/arvisan-input-parser)**:  Script created to specifically parse *OutSystems* consumer-producer data with functional domain (Application group) data into a labeled property graph, readable by Cytoscape. This script was used in the proof-of-concept version of ARViSAN.
+
 
 ## Installation
 To install the required packages, navigate to the `DEPENDENCY_ANALYZER/dependency_parser` directory and run the following command:
