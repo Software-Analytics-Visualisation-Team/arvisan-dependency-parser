@@ -2,7 +2,7 @@
 The `dependency_parser` is a Python tool created to parse different types of dependencies and generate input for ARViSAN. Currently, the parser supports parsing component dependencies collected from a study with Thermo Fisher Scientific. The parser can be easily extended to further support new sources of dependencies.
 
 ## Table of Contents
-- [Introduction](#introduction)
+- [ARViSAN repositories](#arvisan-repositories)
 - [Installation](#installation)
 - [Folder structure](#folder-structure)
 - [Input Files](#input-files)
